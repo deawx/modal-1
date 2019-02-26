@@ -33,7 +33,7 @@
 
     // --------------------------------------------------------------------------------
     // 准备工作
-    window.ready = {
+    var ready = {
         // 如果是 ie 浏览器，则返回相应的版本号，否则返回 false
         ie: (!!window.ActiveXObject || "ActiveXObject" in window) ? ((navigator.userAgent.toLowerCase().match(/msie\s(\d+)/) || [])[1] || "11") : false,
         // 如果 value 是一个对象，则返回 true
