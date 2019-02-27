@@ -584,7 +584,7 @@
         }
 
         // 执行关闭操作
-        var me = ready.stack[index];
+        var me = ready.queue[index];
         var index = me.index;
         var options = me.options;
 
